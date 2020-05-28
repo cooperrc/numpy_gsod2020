@@ -67,33 +67,39 @@ into Tutorials and How-Tos
 
 # Specific Aims 
 
-1. Organize the current documentation into 
+## 1. Organize the current documentation into 
 
-  1. Tutorial Space
+### Tutorial Space
 
-    a. Absolute Beginner's Guide (move the lists to arrays here)
-    b. Array Creation (built-in functions, read from csv's, saving-loading
-    arrays)
-    d. Indexing
-    b. Linear Algebra
-    c. Numpy for Matlab
+a. Absolute Beginner's Guide (move the lists to arrays here)
+
+b. Array Creation (built-in functions, read from csv's, saving-loading
+arrays)
+
+c. Indexing
+
+d. Linear Algebra
+
+e. Numpy for Matlab
   
-  2. How-to Space: A curated selection of notebooks or websites that demonstrate
+### How-to Space: A curated selection of notebooks or websites that demonstrate
   how to define a problem, how to approach the problem, and the final results
 
-  3. Explanation Space
+### Explanation Space
 
-    a. Broadcasting
-    b. Byte-swapping
-    c. Array creation (raw bytes, library functions, read from disk)
+a. Broadcasting
 
-  4. Reference Space: leave in the current function help documentation and API's
+b. Byte-swapping
+
+c. Array creation (raw bytes, library functions, read from disk)
+
+### Reference Space: leave in the current function help documentation and API's
 
 _This organization will help new users progress through documents and potential
 documentation contributors will have clear styles and formats to base future
 work_
 
-2. Edit the current tutorials (Beginner's Guide, Array Creation, Indexing,
+## 2. Edit the current tutorials (Beginner's Guide, Array Creation, Indexing,
 Linear Algebra, and Numpy for Matlab) to move reference information into the
 Explanation Space. 
 
@@ -101,11 +107,13 @@ _The current tutorials will be shorter and easier to follow. New users will not
 be faced with extra information that doesn't directly lead to applying Numpy to
 their use cases._
 
-3. Build a "How-to" template with one or two examples
+## 3. Build a "How-to" template with one or two examples
 
   a. Define a problem, create an approach with Numpy, and present the solution
+  
   b. These will be user-contributed and present use cases that working students
   and professionals can follow
+  
   c. The How-to's will be curated with links or tags to functions, classes, etc. 
 
 _New documentation contributors will be able to contribute small use cases to
@@ -133,28 +141,5 @@ the goals of the Numpy community in teaching and learning
 
 # Expected Significance
 
-
-
-<!-- # Project Title -->
-
-
-[[3]](https://numpy.org/neps/nep-0044-restructuring-numpy-docs.html). 
-
-I have three
-primary goals for this Scholar Facilitation Funded project: access funding for
-the FOSS development community, build online resources for students and
-researchers, and prepare materials that could be distributed to UConn's online
-courses or massively open online courseware (MOOC) certificates at UConn. The
-Gordon Betty Moore, and Alfred P. Sloan foundations directly fund the Numpy
-package and there are other private companies that support it including Google,
-Microsoft, Amazon, Bloomberg, etc. Improving the Numpy documentation could lead
-to student scholarships and further grants to continue developing FOSS packages.
-The current Numpy documentation is free and open access for all people,
-incluiding our UConn students. My improved documentation and tutorials would
-function as an open source, free textbook for our students and millions of other
-users. These open resources would be ideal for developing online courses that
-reach more students and even massively open online courses (MOOCs) for
-cerificate programs at UConn. 
-The recent COVID-19 quarantine has forced universities to shift content online.
-We have the opportunity to help build essential resources for Numpy, an
-essential scientific computing software. 
+* New users will stay in the Numpy documentation ecosystem
+* Potential documentation contributors will be part of the Numpy community and help build consistent documentation
