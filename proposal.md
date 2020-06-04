@@ -25,28 +25,21 @@ new users and possible contributors.
   * how-to space
   * explanation space
   * reference space
-* Numpy's explanation and reference space is generated from detailed doc-strings
-* in each function
+* Numpy's explanation and reference space is generated from detailed doc-strings in each function
 * the tutorial and how-to spaces are not clearly delineated and sometimes enter into the explanation and reference space
-* There are excellent tutorials for the "Absolute Beginner" and newcomers with
-* Matlab experience
+* There are excellent tutorials for the "Absolute Beginner" and newcomers with Matlab experience
 
 
 
 # Gap in the Knowledge Base/Unmet Need 
 
-* The current documentation covers many necessary topics, but lacks clear
- distinction between tutorial, how-to, explanation, and reference space
+* The current documentation covers many necessary topics, but lacks clear distinction between tutorial, how-to, explanation, and reference space
 
 * New documentation contributors are faced with hurdles to contribute 
 
-* My goal is to make Numpy's documentation more
- accessible for newcomers and possible documentation contributors with a logical
- flow in documentation and building templates for user-contributed How-to's
+* My goal is to make Numpy's documentation more accessible for newcomers and possible documentation contributors with a logical flow in documentation and building templates for user-contributed How-to's
 
-* My long term goal is to build the documentation community so that learning
- from the documentation is a give-and-take that experienced users will point
- new-comers to the numpy.org documentation for help
+* My long term goal is to build the documentation community so that learning from the documentation is a give-and-take that experienced users will point new-comers to the numpy.org documentation for help
 
 
 
@@ -55,21 +48,20 @@ new users and possible contributors.
 
 * I use Numpy in almost all of my courses
 * The current documentation is off-putting for new users e.g. my students
-* I want to use my experience teaching non-CS majors how to code to help
- organize, edit, and fill in gaps in the current tutorials
+* I want to use my experience teaching non-CS majors how to code to help organize, edit, and fill in gaps in the current tutorials
 * Then, I can use the Numpy documentation as a textbook for courses
-* I have created dozens of tutorials, exercises, and examples using Python and
-Numpy <github.uconn.edu/rcc02007>. I want to convert some of this material
+* I have created dozens of tutorials, exercises, and examples using Python and Numpy <github.uconn.edu/rcc02007>. I want to convert some of this material
 into Tutorials and How-Tos 
 * I have had over 800 students use Numpy (as part of the Scipy stack)
 * I have been teaching at University of Connecticut Mechanical Engineering for 4
  years and taught over 30 credit-hours of courses
 
-# Specific Aims 
+#  Three Specific Aims 
+
 
 ## 1. Organize the current documentation into 
 
-### Tutorial Space
+### i. Tutorial Space
 
 a. Absolute Beginner's Guide (move the lists to arrays here)
 
@@ -82,10 +74,10 @@ d. Linear Algebra
 
 e. Numpy for Matlab
   
-### How-to Space: A curated selection of notebooks or websites that demonstrate
+### ii. How-to Space: A curated selection of notebooks or websites that demonstrate
   how to define a problem, how to approach the problem, and the final results
 
-### Explanation Space
+### iii. Explanation Space
 
 a. Broadcasting
 
@@ -93,15 +85,13 @@ b. Byte-swapping
 
 c. Array creation (raw bytes, library functions, read from disk)
 
-### Reference Space: leave in the current function help documentation and API's
+### iv. Reference Space: leave in the current function help documentation and API's
 
 _This organization will help new users progress through documents and potential
 documentation contributors will have clear styles and formats to base future
 work_
 
-## 2. Edit the current tutorials (Beginner's Guide, Array Creation, Indexing,
-Linear Algebra, and Numpy for Matlab) to move reference information into the
-Explanation Space. 
+## 2. Edit the current tutorials (Beginner's Guide, Array Creation, Indexing, Linear Algebra, and Numpy for Matlab) to move reference information into the Explanation Space. 
 
 _The current tutorials will be shorter and easier to follow. New users will not
 be faced with extra information that doesn't directly lead to applying Numpy to
@@ -122,13 +112,11 @@ continue to build our teaching-and-learning community. For essential
 how-to's, the content can be added to the core documentation._
 
 
-* This proposed documentation will mimic current open source documentation such
- as Matplotlib, Divio, etc. New users and potential contributors will have an
- easier time learning to apply Numpy in their fields and software. 
+* This proposed documentation will mimic current open source documentation such as Matplotlib, Divio, etc. New users and potential contributors will have an easier time learning to apply Numpy in their fields and software. 
 
 # Expected Outcomes
 
-Upon completing this Google Season of Docs I propose the following outcomes
+Upon completing this Google Season of Docs I propose the following outcomes:
 
 1. A revised Numpy Documentation Webpage that clearly separates the four spaces:
 Tutorials, How-to, Explanation, and Reference
@@ -138,6 +126,35 @@ creation, and linear algebra
 
 3. The curated How to space will increase user contributions and help further
 the goals of the Numpy community in teaching and learning
+
+The timeline for the project is __9/14-11/30__. Each outcome has a number of steps outlined below in the tables for Outcomes 1-3. The first steps are to build the documentation and separate content in the current tutorials into __Tutorial__ and __Explanation__ content. This will be done in the first three weeks of the project as part of Outcomes 1 and 2-revising the website and tutorials, respectively. 
+
+|Outcome 1: Revise website | Deliverable Date|
+|---| ---|
+|Fork Numpy Repository and Build Docs with Sphinx| 9/21 |
+|Build Webpage with Four Spaces defined and linked| 10/1|
+|Move current tutorials into appropriate spaces and Build docs | 10/10 |
+|Submit PR to github with proposed changes | 10/20 |
+|Respond to comments/suggestions and revise PR | _ongoing with Outcome 2_ |
+|Website revised | 11/30 |
+
+|__Outcome 2: Revise tutorials__ | Deliverable Date |
+|---|---|
+|Rank the tutorials in order of need of revision | 9/21 |
+|Separate current tutorial content into __Tutorial__ and __Explanation__ spaces| 10/1|
+|Revise top-ranked Tutorial content| 10/10 |
+|Submit PR to github for separation and revision| 10/20|
+|Revise the rank 2 tutorial submit PR| 11/1|
+|Revise the rank 3 tutorial submit PR| 11/15|
+|Revise the rank 4 tutorial submit PR| 11/30|
+<!--https://numpy.org/devdocs/user/ionumpy.html-->
+
+
+|__Outcome 3: Curated How-to space__| Deliverable Date|
+|---|---|
+|Build How-to example (either "Transform Vectors with Numpy" or "Saving and loading Numpy arrays")|10/20|
+|Build How-to template for new contributors| 11/1| 
+|Work with other contributors to build How-to notebooks _recruiting UConn students and other community members_ | _ongoing_ |
 
 # Expected Significance
 
