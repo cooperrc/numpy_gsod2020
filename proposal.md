@@ -146,13 +146,26 @@ The timeline for the project is __9/14-11/30__. Each outcome has a number of ste
 |---|---|
 |Rank the tutorials in order of need of revision | 9/21 |
 |Separate current tutorial content into __Tutorial__ and __Explanation__ spaces| 10/1|
-|Revise top-ranked Tutorial content| 10/10 |
+|Revise rank 1 Tutorial content| 10/10 |
 |Submit PR to github for separation and revision| 10/20|
 |Revise the rank 2 tutorial submit PR| 11/1|
 |Revise the rank 3 tutorial submit PR| 11/15|
 |Revise the rank 4 tutorial submit PR| 11/30|
 <!--https://numpy.org/devdocs/user/ionumpy.html-->
 
+Proposed ranking of tutorial revisions:
+
+1. Read/Write numpy arrays __currently empty page__
+
+2. array creation (np.zeros, np.ones, np.block, etc.) __Does not exist: would help new users to have the
+common array creation/interaction tools explained and demonstrated__
+
+3. Element-wise and linear algebra operations (`+,-,*,/` and `+,-@,linalg.solve`) __Does
+not exist: this
+is especially helpful for 1. Matlab users and 2. People adopting Numpy for linear algebra
+(machine learning, linear regression, etc.)__
+
+4. TBD
 
 |__Outcome 3: Curated How-to space__| Deliverable Date|
 |---|---|

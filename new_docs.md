@@ -17,9 +17,10 @@
 
     - array creation (np.zeros, np.ones, np.block, etc.)
 
-    - element-wise operations (`+,-,*,/`)
+    - element-wise operations (`+,-,*,/`) and linear algebra operations (`+,-,@,
+      linalg.solve`)
 
-    - Linear algebra operations (`+,-,@, linalg.solve`)
+    - How to read and write data using Numpy (high priority)
 
     - Indexing
 
@@ -27,7 +28,6 @@
 
 # How-to's:
 
-- How to read and write data using Numpy (high priority)
 
 - Linear Algebra on n-dimensional arrays (would love to edit the headings and
   descriptions and maybe change title to "Image processing with Numpy's linear algebra")
