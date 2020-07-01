@@ -10,6 +10,7 @@
 * Needs a consistent, clear guide for a new user
 * Education is accomplished through community [[Dewey, John. Democracy and
  Education]](https://www.gutenberg.org/files/852/852-h/852-h.htm)
+* We build knowledge and skills by testing and experimenting [Dewey]
 * It is important to establish a community in the documentation that reflects
  the desired goals of the project
 * This consistent, clear guide will help potential contributors add documentation and advise new users
@@ -25,10 +26,11 @@ new users and possible contributors.
   * how-to space
   * explanation space
   * reference space
-* Numpy's explanation and reference space is generated from detailed doc-strings in each function
+* Numpy's explanation and reference space is generated from detailed doc-strings
+ in each function
 * the tutorial and how-to spaces are not clearly delineated and sometimes enter into the explanation and reference space
-* There are excellent tutorials for the "Absolute Beginner" and newcomers with Matlab experience
-
+* There are excellent tutorials for the "Absolute Beginner" and newcomers with
+ Matlab experience
 
 
 # Gap in the Knowledge Base/Unmet Need 
@@ -53,13 +55,15 @@ new users and possible contributors.
 * I have created dozens of tutorials, exercises, and examples using Python and Numpy <github.uconn.edu/rcc02007>. I want to convert some of this material
 into Tutorials and How-Tos 
 * I have had over 800 students use Numpy (as part of the Scipy stack)
+* I have multiple students that are interested in becoming Numpy documentation
+ contributors for the Fall semester
 * I have been teaching at University of Connecticut Mechanical Engineering for 4
  years and taught over 30 credit-hours of courses
 
 #  Three Specific Aims 
 
 
-## 1. Organize the current documentation into 
+## 1. Organize the current documentation into:
 
 ### i. Tutorial Space
 
@@ -129,7 +133,7 @@ the goals of the Numpy community in teaching and learning
 
 The timeline for the project is __9/14-11/30__. Each outcome has a number of steps outlined below in the tables for Outcomes 1-3. The first steps are to build the documentation and separate content in the current tutorials into __Tutorial__ and __Explanation__ content. This will be done in the first three weeks of the project as part of Outcomes 1 and 2-revising the website and tutorials, respectively. 
 
-|Outcome 1: Revise website | Deliverable Date|
+|__Outcome 1: Revise website__ | Deliverable Date|
 |---| ---|
 |Fork Numpy Repository and Build Docs with Sphinx| 9/21 |
 |Build Webpage with Four Spaces defined and linked| 10/1|
