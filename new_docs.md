@@ -20,11 +20,9 @@
     - element-wise operations (`+,-,*,/`) and linear algebra operations (`+,-,@,
       linalg.solve`)
 
-    - How to read and write data using Numpy (high priority)
+    - Read and write data using Numpy (high priority)
 
     - Indexing
-
-
 
 # How-to's:
 
@@ -55,9 +53,6 @@
 - Miscellaneous 
 
 # Reference Space:
-
-- Numpy Cheat sheet (to start, just grab each function from tutorials and how-to's list
-  them in groups with links and minimal input-output)
 
 - Glossary 
 
