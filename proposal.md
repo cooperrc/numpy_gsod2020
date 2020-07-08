@@ -257,3 +257,4 @@ users to find room to experiment, learn, and join the NumPy community.
 2. [NumPy GitHub repository](https://github.com/numpy). 
 3. [The Documentation System](https://documentation.divio.com/). Divio.com _accessed 07/2020_.
 4. Dewey, John. [Democracy and Education](https://www.gutenberg.org/files/852/852-h/852-h.htm). Project Gutenberg, Aug. 2015. 
+5. Dewey, John. [Quest for Certainty](https://archive.org/stream/questforcertaint029410mbp/questforcertaint029410mbp_djvu.txt) George Allen And Unwin Limited. 06/2005.
