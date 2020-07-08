@@ -1,38 +1,36 @@
-# Google's Season of Docs  Documentation
+# NumPy Documentation for Community Education 
+
+_Google's Season of Docs_
 
 # Introduction
 
 NumPy delivers clean and fast array-based computing in a free open source software
-library. It is a fundamental package in the SciPy stack for scientific computing [[1]](www..org). Over 370 thousand projects use  for efficient array computing
-[[2]](github.com//numpy). New NumPy users are are greeted by a new website with
-applications and case studies [[1]](www..org). When the new user finds the
+library. It is a fundamental package in the SciPy stack for scientific computing [[1]](https://www.numpy.org). Over 370 thousand projects use  for efficient array computing
+[[2]](https://github.com/numpy). NumPy users are greeted by a new website with
+applications and case studies [[1]](https://www.numpy.org). When a new user finds the
 documentation page, s/he is met with multiple "Start Here" links and introductory
 tutorials that can be overwhelming for a beginner, such as [NumPy
 Basics/byte-swapping](https://.org/doc/stable/user/basics.byteswapping.html). I began
 using NumPy ten years ago in graduate school. I found myself piecing together blog posts,
 lecture notes, and StackExchange answers to avoid going through the NumPy documentation.
-There are currently over 360 thousand StackExchange conversations that deal with NumPy, so
+There are currently over 360 thousand StackExchange conversations that deal with NumPy. 
 I imagine other users have had similar routes to success in NumPy. 
-
-It is important to establish a community in the documentation that reflects the desired
-goals of the project. The documentation needs a consistent, clear guide for a new user.
+The building blocks of educational tools
+are communication and community [[4]](https://www.gutenberg.org/files/852/852-h/852-h.htm).
+The documentation needs to establish a community  that reflects the desired
+goals of the project. The documentation should be consistent, clear guide for a new user.
 The tutorials should give new users easy-to-follow steps and build comfort with the
-library [[3]](https://documentation.divio.com/). The building blocks of educational tools
-are communication and community [[4 Dewey, John. Democracy and
-Education]](https://www.gutenberg.org/files/852/852-h/852-h.htm). The documentation
-education is meant to welcome a new user into the NumPy community. When new users enter
-the website, they are entering the NumPy community. The structure, the pace, and the
+library [[3]](https://documentation.divio.com/).  The documentation
+should welcome a new user into the NumPy community. The structure, the pace, and the
 authors of the documentation all need to create a place that welcomes exploration and
-communication. This proposal is meant to organize and fill in gaps in the current NumPy
+communication. This proposal will organize and fill in gaps in the current NumPy
 documentation so that new users are educated and welcomed into the community. 
 
-The knowledge that users communicate is gained by testing and experimenting [[4 /5]](Quest
-for Certainty + Democracy and Education).  Knowledge depends upon the method of testing
-and evaluating. Content that provides clear goals and applications in how-to's provides
-new and experienced users guides to approaching new problems. The community can build a
-knowledge base enhance skills, facts, and applications. These "how-to" guides provide a
-two-fold benefit. First, new and experienced users have a set of clear goals to test and
-experiment on. Second, potential documentation contributors have a space to communicate
+The knowledge that users communicate is gained by testing and experimenting [[4,](https://www.gutenberg.org/files/852/852-h/852-h.htm)[5](https://books.google.com/books/about/The_Quest_for_Certainty.html?id=5VcNAAAAIAAJ)].  Knowledge depends upon the method of testing
+and evaluating. Content that provides clear goals and applications in how-to's allows users to test and evaluate new ideas and methods. The community can build a
+knowledge base enhance skills, facts, and applications. The how-to space provides a
+two-fold benefit. First, new and experienced users have a set of clear goals to test and build
+experiments. Second, potential documentation contributors have a space to communicate
 their goals, methods, and solutions. The how-to space fills an immediate need to make
 NumPy's documentation more accessible for new users and possible contributors. 
 
@@ -45,8 +43,7 @@ built upon community and communication. An organized documentation page clears t
 new users to experience NumPy. It also creates a structured template for potential
 contributors to communicate expereriences in NumPy. 
 
-There are four broadly-grouped spaces for software documentation [[Divio's
- Documentation System]](https://documentation.divio.com/): tutorial space, how-to space,
+There are four broadly-grouped spaces for software documentation [[3]](https://documentation.divio.com/): tutorial space, how-to space,
  explanation space, and reference space. The NumPy documentation has a number of documents
  in the tutorial space that mix explanation and how-to space content into the tutorial.
  Tutorial space should focus on user education and use easy-to-repeat steps to communicate
@@ -55,7 +52,7 @@ There are four broadly-grouped spaces for software documentation [[Divio's
  in each function. The current tutorial and how-to spaces are not clearly delineated and
  sometimes enter into the explanation and reference space. There is an excellent tutorial
  for the "Absolute Beginner" and there is a great reference for Matlab users to build
- NumPy code in the "Numpy for Matlab users". 
+ NumPy code in the "Numpy for Matlab users". Clearly delineating these four spaces make the documentation more clear. 
 
 
 
@@ -91,25 +88,41 @@ teaching at University of Connecticut Mechanical Engineering for 4 years and tau
 
 #  Specific Aims 
 
-I have three specific aims for this Google Summer of Docs proposal: 1. Organize the
-current documentation, 2. Edit the current tutorials (Beginner's Guide, Array Creation,
+I have three specific aims for this Google Summer of Docs proposal: 
+1. Organize the
+current documentation, 
+2. Edit the current tutorials (Beginner's Guide, Array Creation,
 Indexing, Linear Algebra, and NumPy for Matlab) to move reference information into the
-Explanation Space, and  3. Build how-to materials with students. Each specific aim has an
-expected outcome for the proposal. The expected outcomes are: 1. A revised documentation
+Explanation Space, and  
+3. Build how-to materials with students. Each specific aim has an
+expected outcome for the proposal. 
+
+These three specific aims are meant to make the documentation more welcoming for new users and provide structure for potential contributors. The aims also help to further the long term goal of continuing to grow the NumPy documentation community. 
+
+# Expected Outcomes
+
+I have three expected outcomes as such: 
+1. A revised documentation
 webpage that clearly separates the four spaces: tutorials, how-to, explanation, and
-reference, 2. new tutorials for: reading and writing arrays, array creation (np.zeros,
-np.ones, np.block, etc.), and element-wise vs. linear algebra operation in NumPy, and 3.
-a curated how-to space. These expected outcomes will help new users progress through
+reference, 
+2. new tutorials for: reading and writing arrays, array creation (np.zeros,
+np.ones, np.block, etc.), and element-wise vs. linear algebra operation in NumPy, and 
+3. a curated how-to space. 
+ 
+These expected outcomes will help new users progress through
 documents, provide potential documentation contributors with clear styles and formats,
 make current tutorials shorter and easier to follow, move explanations to a separate
 section, and new documentation contributors will be able to contribute small use cases to
 the how-to section without building entire Sphinx documentation.  We want to continue to
 build our teaching-and-learning community.
 
-The timeline for the project is __9/14-11/30__. Each outcome has a number of steps
-outlined below in the tables for Outcomes 1-3. The first steps are to build the
+New documentation contributors can contribute small use cases to
+millions of users without building the entire Sphinx documentation. We want to
+continue to build our teaching-and-learning community. This proposed documentation will mimic current open source documentation such as Matplotlib, Divio, etc. New users and potential contributors will have an easier time learning to apply NumPy in their fields and software. 
+
+The timeline for the project is __9/14-11/30__. The first step is to build the
 documentation and separate content in the current tutorials into __Tutorial__, __How-to__, and
-__Explanation__ content. This will be done in the first three weeks of the project as part
+__Explanation__ content. This will be done in the first five weeks of the project as part
 of Outcomes 1 and 2-revising the website and tutorials, respectively. The proposed
 Documentation organization is shown in the Proposed Documentation below. 
 
@@ -117,84 +130,42 @@ Documentation organization is shown in the Proposed Documentation below.
 
 ### i.Tutorials:
 
-- Absolute basics for beginners (remove installation, can pandas import/export be replaced
+* Absolute basics for beginners (remove installation, can pandas import/export be replaced
   with numpy.loadtxt?) 
-
-      - link to "What is numpy" 
-
-      - link to basic installation instructions here
-
-
-- Quickstart Tutorial (meant for follow-up to [Python
+  * link to "What is numpy" 
+  * link to basic installation instructions here
+* Quickstart Tutorial (meant for follow-up to [Python
   tutorial](https://docs.python.org/tutorial/) )
-
-  
-- Working with NumPy arrays 
-
-    - array creation (np.zeros, np.ones, np.block, etc.)
-
-    - element-wise operations (`+,-,*,/`) and linear algebra operations (`+,-,@,
-      linalg.solve`)
-
-    - Read and write data using Numpy (high priority)
-
-    - Indexing
+* Working with NumPy arrays 
+    * array creation (np.zeros, np.ones, np.block, etc.) (_write: med-low priority_)
+    * element-wise operations (`+,-,*,/`) and linear algebra operations (`+,-,@,
+      linalg.solve`) (_write:med priority_)
+    * Read and write data using Numpy (_write: high priority_)
+    * Indexing
 
 ### ii. How-to's:
-
-
-- Linear Algebra on n-dimensional arrays (would love to edit the headings and
+* Linear Algebra on n-dimensional arrays (would love to edit the headings and
   descriptions and maybe change title to "Image processing with Numpy's linear algebra")
-
-- link to numpy-tutorials/numpy-recipes
+* link to [numpy-tutorials](https://github.com/numpy/numpy-tutorials) how-to content (_on-going work_)
 
 ### iii. Explanation:
 
-- Data types
-
-- I/O with Numpy
-
-- Indexing
-
-- Broadcasting
-
-- Byte-swapping 
-
-- Structured arrays
-
-- Writing custom array containers
-
-- subclassing ndarray
-
-- Miscellaneous 
+* Data types
+* I/O with Numpy
+* Indexing
+* Broadcasting
+* Byte-swapping 
+* Structured arrays
+* Writing custom array containers
+* subclassing ndarray
+* Miscellaneous 
 
 ### iv. Reference Space:
 
-- Glossary 
-
-- Numpy API Reference 
-
-- Numpy for Matlab users (equivalence table is a great how-to reference table, but
+* Glossary 
+* Numpy API Reference 
+* Numpy for Matlab users (equivalence table is a great reference table, but
   array/matrix discussion is distracting and seems deprecated)
-
-
-
-  a. Define a problem, create an approach with , and present the solution
-  
-  b. These will be user-contributed and present use cases that working students
-  and professionals can follow
-  
-  c. The How-to's will be curated with links or tags to functions, classes, etc. 
-
-_New documentation contributors will be able to contribute small use cases to
-millions of users without building entire Sphinx documentation. We want to
-continue to build our teaching-and-learning community. For essential
-how-to's, the content can be added to the core documentation._
-
-
-* This proposed documentation will mimic current open source documentation such as Matplotlib, Divio, etc. New users and potential contributors will have an easier time learning to apply  in their fields and software. 
-
-# Expected Outcomes
 
 Upon completing this Google Season of Docs I propose the following outcomes:
 
@@ -208,11 +179,8 @@ and write data using Numpy (high priority)
 3. Advised how-to documents to increase user contributions and help further
 the goals of the  community in teaching and learning
 
-The timeline for the project is __9/14-11/30__. Each outcome has a number of steps
-outlined below in the tables for Outcomes 1-3. The first steps are to build the
-documentation and separate content in the current tutorials into __Tutorial__ and
-__Explanation__ content. This will be done in the first three weeks of the project as part
-of Outcomes 1 and 2-revising the website and tutorials, respectively. While the layout is
+Each outcome has a number of steps
+outlined below in the tables for Outcomes 1-3. While the __Proposed Documentation__ is
 submitted for review, the high priority "Read/write arrays" tutorial will be written for
 submission as a pull request as part of Outcome 2. During the review of the revised
 website and updated "Read/Write arrays" tutorial, I will begin writing a tutorial for
@@ -223,7 +191,7 @@ tutorial: Element-wise and linear algebra operations in Python.
 The third outcome is to advise students at University of Connecticut to build
 documentation in the [numpy-tutorials](https://github.com/numpy/numpy-tutorials)
 repository. The submitted tutorials or how-to documents will be Jupyter notebooks that use
-NumPy to solve an engineering problem. I will use some of my course notes/examples to
+NumPy to solve engineering problems. I will use some of my course notes/examples to
 submit an example notebook. I will advise students to follow the layout and structure as
 we build a [template](https://github.com/numpy/numpy-tutorials/pull/11) and [framing
 scheme](https://github.com/numpy/numpy-tutorials/issues/13). This outcome presents a
@@ -236,13 +204,13 @@ and learn.
 |Fork  Repository and Build Docs with Sphinx| 9/21 |
 |Build Webpage with Four Spaces defined and linked| 10/1|
 |Move current tutorials into appropriate spaces and Build docs | 10/10 |
-|Submit PR to github with proposed changes | 10/20 |
+|Submit PR to github with proposed changes | 11/1 |
 |Respond to comments/suggestions and revise PR | _ongoing with Outcome 2_ |
 |Website revised | 11/30 |
 
 |__Outcome 2: Revise tutorials__ | Deliverable Date |
 |---|---|
-|Rank the tutorials in order of need of revision | 9/21 |
+|Review tutorials revision ranking | 9/21 |
 |Separate current tutorial content into __Tutorial__ and __Explanation__ spaces| 10/1|
 |Write rank 1: Read/Write arrays| 10/10 |
 |Submit PR to github for separation and revision| 10/20|
@@ -263,16 +231,15 @@ is especially helpful for 1. Matlab users and 2. People adopting  for linear alg
 (machine learning, linear regression, etc.)__
 
 
-|__Outcome 3: Curated How-to space__| Deliverable Date|External Link (issue/example)|
-|---|---|
-|Build How-to example (candidate: [How to find natural frequencies of guitar
-strings](https://github.uconn.edu/rcc02007/CompMech05-BVPs/blob/master/notebooks/03_Good_Vibrations.ipynb) |10/20|
+|__Outcome 3: Curated How-to space__|Deliverable Date|External Link(issue/example)|
+|---|---|---|
+|Build How-to example (candidate: [How to find natural frequencies of guitar strings](https://github.uconn.edu/rcc02007/CompMech05-BVPs/blob/master/notebooks/03_Good_Vibrations.ipynb) |10/20|
 |Build How-to template for new contributors| 10/1 _in progress_|[Tutorial template PR](https://github.com/numpy/numpy-tutorials/pull/11) & [Framing possible contributions](https://github.com/numpy/numpy-tutorials/issues/13) | 
 |Work with other contributors to build How-to notebooks _recruiting UConn students and other community members_ | _7/1 status: work-study approved and applications arriving_ |
 
 # Expected Significance
 
-This Google Summer of Docs proposal will make the NumPy documentation more clear, fill in
+This Google Summer of Docs proposal will make the NumPy documentation , fill in
 missing tutorials from the website, and gain documentation contributors. As a Professor in
 Mechanical Engineering, I plan to segment the documentation in a way that my students will
 be able to navigate the documents and easily find introductory tutorials vs hands-on
@@ -282,3 +249,11 @@ documentation lends itself to a give-and-take through educate-and-communicate ex
 new and experienced users. The proposed how-to document advising with University of
 Connecticut students will put this educate-and-communicate idea to practice. We want all
 users to find room to experiment, learn, and join the NumPy community. 
+
+# References
+
+
+1. [NumPy.org](https://www.numpy.org) website _accessed 07/2020_.
+2. [NumPy GitHub repository](https://github.com/numpy). 
+3. [The Documentation System](https://documentation.divio.com/). Divio.com _accessed 07/2020_.
+4. Dewey, John. [Democracy and Education](https://www.gutenberg.org/files/852/852-h/852-h.htm). Project Gutenberg, Aug. 2015. 
