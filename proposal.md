@@ -208,9 +208,9 @@ and learn.
 |Respond to comments/suggestions and revise PR | _ongoing with Outcome 2_ |
 |Website revised | 11/30 |
 
-|__Outcome 2: Revise tutorials__ | Deliverable Date |
-|---|---|
-|Review tutorials revision ranking | 9/21 |
+|__Outcome 2: Revise tutorials__ | Deliverable Date |Deliverable|
+|---|---|---|
+|~~Review tutorials revision ranking~~ Build documentation, submit issue, submit PR | 9/21 |[issue #17094](https://github.com/numpy/numpy/issues/17094): [PR 17215](https://github.com/numpy/numpy/pull/17215) & [PR 17159](https://github.com/numpy/numpy/pull/17159)|
 |Separate current tutorial content into __Tutorial__ and __Explanation__ spaces| 10/1|
 |Write rank 1: Read/Write arrays| 10/10 |
 |Submit PR to github for separation and revision| 10/20|
