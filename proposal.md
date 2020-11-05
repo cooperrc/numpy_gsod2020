@@ -199,10 +199,10 @@ genuine experience for students to communicate concepts and solutions to a broad
 audience. It is a great opportunity for students to get involved with the NumPy community
 and learn. 
 
-|__Outcome 1: Revise website__ | Deliverable Date|
-|---| ---|
-|Fork  Repository and Build Docs with Sphinx| 9/21 |
-|Build Webpage with Four Spaces defined and linked| 10/1|
+|__Outcome 1: Revise website__ | Deliverable Date|deliverable|
+|---| ---|---|
+|Fork  Repository and Build Docs with Sphinx| 9/21 |[x]|
+|Build Webpage with Four Spaces defined and linked| 10/1| done, but working with @bjnath on new style/org|
 |Move current tutorials into appropriate spaces and Build docs | 10/10 |
 |Submit PR to github with proposed changes | 11/1 |
 |Respond to comments/suggestions and revise PR | _ongoing with Outcome 2_ |
@@ -210,9 +210,9 @@ and learn.
 
 |__Outcome 2: Revise tutorials__ | Deliverable Date |Deliverable|
 |---|---|---|
-|~~Review tutorials revision ranking~~ Build documentation, submit issue, submit PR | 9/21 |[issue #17094](https://github.com/numpy/numpy/issues/17094): [PR 17215](https://github.com/numpy/numpy/pull/17215) & [PR 17159](https://github.com/numpy/numpy/pull/17159)|
-|Separate current tutorial content into __Tutorial__ and __Explanation__ spaces| 10/1|
-|Write rank 1: Read/Write arrays| 10/10 |
+|~~Review tutorials revision ranking~~ Build documentation, submit issue, submit PR | 9/21 |Closed:[issue #17094](https://github.com/numpy/numpy/issues/17094); Merged: [PR 17215](https://github.com/numpy/numpy/pull/17215); & Merged: [PR 17159](https://github.com/numpy/numpy/pull/17159)|
+|Separate current tutorial content into __Tutorial__ and __Explanation__ spaces| 10/1| building workflow with jupytext and github in [numpy-tutorials](https://github.com/numpy/numpy-tutorials) _Status 20201105:almost ready_
+|Write rank 1: Read/Write arrays| 10/10 | merged [#34](https://github.com/numpy/numpy-tutorials/pull/31) and [#31](https://github.com/numpy/numpy-tutorials/pull/31)
 |Submit PR to github for separation and revision| 10/20|
 |Write the rank 2: Array Creation PR| 11/15|
 |Write the rank 3: Element-wise and linear algebra operations PR| 11/30|
@@ -221,21 +221,22 @@ and learn.
 Proposed ranking of tutorial revisions (subject to change according to mentors/community):
 
 1. Read/Write  arrays __currently empty page__
-
 2. Array creation (np.zeros, np.ones, np.block, etc.) __Does not exist: would help new users to have the
 common array creation/interaction tools explained and demonstrated__
-
 3. Element-wise and linear algebra operations (`+,-,*,/` and `+,-@,linalg.solve`) __Does
 not exist: this
 is especially helpful for 1. Matlab users and 2. People adopting  for linear algebra
 (machine learning, linear regression, etc.)__
+4. Best practices while indexing e.g. newaxes, slicing, etc. e.g. analytical dynamics? 
+5. 
 
+Missing: explanations (ID missing/incomplete explanation spaces)
 
-|__Outcome 3: Curated How-to space__|Deliverable Date|External Link(issue/example)|
+|__Outcome 3: Curated ~~How-to~~ Tutorial space__|Deliverable Date|External Link(issue/example)|
 |---|---|---|
 |Build How-to example (candidate: [How to find natural frequencies of guitar strings](https://github.uconn.edu/rcc02007/CompMech05-BVPs/blob/master/notebooks/03_Good_Vibrations.ipynb) |10/20|
 |Build How-to template for new contributors| 10/1 _in progress_|[Tutorial template PR](https://github.com/numpy/numpy-tutorials/pull/11) & [Framing possible contributions](https://github.com/numpy/numpy-tutorials/issues/13) | 
-|Work with other contributors to build How-to notebooks _recruiting UConn students and other community members_ | _7/1 status: work-study approved and applications arriving_ |
+|Work with other contributors to build How-to notebooks _recruiting UConn students and other community members_ | _7/1 status: work-study approved and applications arriving_ | 3 students building tutorials (physics, )
 
 # Expected Significance
 
