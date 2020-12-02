@@ -204,24 +204,24 @@ and learn.
 |Fork  Repository and Build Docs with Sphinx| 9/21 |[x]|
 |Build Webpage with Four Spaces defined and linked| 10/1| done, but working with @bjnath on new style/org|
 |Move current tutorials into appropriate spaces and Build docs | 10/10 |
-|Submit PR to github with proposed changes | 11/1 |
+|Submit PR to github with proposed changes | ~~11/1~~ |
 |Respond to comments/suggestions and revise PR | _ongoing with Outcome 2_ |
-|Website revised | 11/30 |
+|Website revised | 11/30 |[revise issue 17845](https://github.com/numpy/numpy/issues/17845)-- 1/3:[PR 17889](https://github.com/numpy/numpy/pull/17889)
 
 |__Outcome 2: Revise tutorials__ | Deliverable Date |Deliverable|
 |---|---|---|
 |~~Review tutorials revision ranking~~ Build documentation, submit issue, submit PR | 9/21 |Closed:[issue #17094](https://github.com/numpy/numpy/issues/17094); Merged: [PR 17215](https://github.com/numpy/numpy/pull/17215); & Merged: [PR 17159](https://github.com/numpy/numpy/pull/17159)|
 |Separate current tutorial content into __Tutorial__ and __Explanation__ spaces| 10/1| building workflow with jupytext and github in [numpy-tutorials](https://github.com/numpy/numpy-tutorials) _Status 20201105:almost ready_
 |Write rank 1: Read/Write arrays| 10/10 | merged [#34](https://github.com/numpy/numpy-tutorials/pull/31) and [#31](https://github.com/numpy/numpy-tutorials/pull/31)
-|Submit PR to github for separation and revision| 10/20|
-|Write the rank 2: Array Creation PR| 11/15|
-|Write the rank 3: Element-wise and linear algebra operations PR| 11/30|
-<!--https://.org/devdocs/user/ionumpy.html-->
+|Submit PR to github for separation and revision| ~~10/20~~11/30| 1/3:[PR 17889](https://github.com/numpy/numpy/pull/17889)
+|Write the rank 2: Array Creation PR| 11/15|[Array creation PR 17710](https://github.com/numpy/numpy/issues/17710)
+|Write the rank 3: Element-wise and linear algebra operations PR| 11/30| _future work_
+<!--https://numpy.org/devdocs/user/ionumpy.html-->
 
 Proposed ranking of tutorial revisions (subject to change according to mentors/community):
 
-1. Read/Write  arrays __currently empty page__
-2. Array creation (np.zeros, np.ones, np.block, etc.) __Does not exist: would help new users to have the
+1. [Read/Write PR 34](https://github.com/numpy/numpy-tutorials/pull/34) & [Moore's law example PR 31](https://github.com/numpy/numpy-tutorials/pull/31)  arrays __currently empty page__
+2. [Array creation PR 17710](https://github.com/numpy/numpy/issues/17710) (np.zeros, np.ones, np.block, etc.) __Does not exist: would help new users to have the
 common array creation/interaction tools explained and demonstrated__
 3. Element-wise and linear algebra operations (`+,-,*,/` and `+,-@,linalg.solve`) __Does
 not exist: this
@@ -235,7 +235,7 @@ Missing: explanations (ID missing/incomplete explanation spaces)
 |__Outcome 3: Curated ~~How-to~~ Tutorial space__|Deliverable Date|External Link(issue/example)|
 |---|---|---|
 |Build How-to example (candidate: [How to find natural frequencies of guitar strings](https://github.uconn.edu/rcc02007/CompMech05-BVPs/blob/master/notebooks/03_Good_Vibrations.ipynb) |10/20|
-|Build How-to template for new contributors| 10/1 _in progress_|[Tutorial template PR](https://github.com/numpy/numpy-tutorials/pull/11) & [Framing possible contributions](https://github.com/numpy/numpy-tutorials/issues/13) | 
+|Build How-to template for new contributors| 10/1 _in progress_|[Tutorial template PR](https://github.com/numpy/numpy-tutorials/pull/11) & [Framing possible contributions](https://github.com/numpy/numpy-tutorials/issues/13) & [PR: Contribution guidelines](https://github.com/numpy/numpy-tutorials/pull/48)| 
 |Work with other contributors to build How-to notebooks _recruiting UConn students and other community members_ | _7/1 status: work-study approved and applications arriving_ | 3 students building tutorials (physics, )
 
 # Expected Significance
